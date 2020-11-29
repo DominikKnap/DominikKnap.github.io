@@ -1,9 +1,279 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        <h1><a href="https://github.com/DominikKnap">dominikknap.github.io</a></h1>
-        <h2>Page in progress...</h2>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>DK - Dominik Knap</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">DK</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+
+                    <h1 class="home__title">Dominik Knap</h1>
+                    <span class="home__profession">Junior Java Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/dominik-knap-8966b6139/" class="home__social-link" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/DominikKnap" class="home__social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/DominiKnap" class="home__social-link" target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://twitter.com/dominik_knap" class="home__social-link" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </div>
+
+                    <a download="" href="#" class="button home_button first_resume">
+                        <p>Download resume</p>
+                        <p>in english</p>
+                    </a>
+                    <a download="" href="#" class="button home_button">
+                        <p>Download resume</p>
+                        <p>in polish</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My intro</span>
+            <h2 class="section-title">About me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ipsum gravida, feugiat arcu non, bibendum tortor. Aenean egestas a est eget congue. Mauris ac ante vitae libero semper tempor sit amet eu nisi. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit. Vivamus luctus risus sed felis auctor tincidunt. Curabitur eget sollicitudin mi. In laoreet consectetur lorem. Aliquam sed velit arcu. Maecenas ultricies massa arcu, non fringilla velit egestas
+                        in. Morbi sit amet massa ultricies, cursus augue at, aliquam quam. Donec ac erat posuere ante finibus placerat. Integer malesuada dui eu tellus ultricies, ut tempor ante condimentum. Vestibulum laoreet dolor ut tempor bibendum.
+                        In lacus tellus, ultricies vehicula euismod dictum, ultrices vel nunc. Aenean ac tellus ut quam venenatis vestibulum vitae ut ligula.</p>
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-user about__information-icon'></i>
+                            <span>Dominik Knap</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-phone about__information-icon'></i>
+                            <span>(+48) 731-798-076</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-envelope about__information-icon'></i>
+                            <span>dominik.knap.93@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Java 11</span>
+                    <span class="skills__name">Object-oriented programming (OOP)</span>
+                    <span class="skills__name">Structural programming</span>
+                    <span class="skills__name">Spring framework</span>
+                    <span class="skills__name">Maven</span>
+                    <span class="skills__name">mySQL</span>
+                    <span class="skills__name">REST API</span>
+                    <span class="skills__name">Hibernate</span>
+                    <span class="skills__name">ORM</span>
+                    <span class="skills__name">VBA</span>
+                    <span class="skills__name">HTML & CSS</span>
+                    <span class="skills__name">jUnit</span>
+                    <span class="skills__name">Git</span>
+                    <span class="skills__name">Design patterns</span>
+                    <span class="skills__name">Algorithms</span>
+
+                    <h3 class="skills__subtitle">Tools</h3>
+                    <span class="skills__name">Intelij IDEA</span>
+                    <span class="skills__name">Eclipse</span>
+                    <span class="skills__name">Spring Tool Suite 4 (STS4)</span>
+                    <span class="skills__name">Visual Studio</span>
+                    <span class="skills__name">Scrum / Agile</span>
+                    <span class="skills__name">mySQL Workbench</span>
+                    <span class="skills__name">Postman</span>
+                    <span class="skills__name">GitHub</span>
+                    <span class="skills__name">Gimp</span>
+                    <span class="skills__name">Windows</span>
+                    <span class="skills__name">Mac OS</span>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SERVICES =====-->
+        <section class="services section" id="services">
+            <span class="section-subtitle">Some practical things</span>
+            <h2 class="section-title">Projects</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class='bx bx-transfer services__icon'></i>
+                    <h3 class="services__title">JSON – XML converter</h3>
+                    <p class="services__description"> <a href="https://github.com/DominikKnap/JSON-xml-Translator"><u>Click to see the project</u></a>. JSON and XML are data formats that allow us to store data in a way that is readable by both a computer and a human. JSON and XML are
+                        common formats of storing data, and since both are used, it is sometimes necessary to convert one format into the other</p>
+                </div>
+
+                <div class="services__content">
+                    <i class='bx bx-copy-alt services__icon'></i>
+                    <h3 class="services__title">Tool for automating repetitive tasks</h3>
+                    <p class="services__description"><a href="https://github.com/DominikKnap/Excelator"><u>Click to see the project</u></a>. Tool for automating repetitive tasks is small VBA project. The goal of this project was to automate repetitive tasks at work. The indicated data
+                        from two sheets are copied from each worksheet and pasted into a separate worksheet.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORKS =====-->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My experience</span>
+            <h2 class="section-title">Commercial experience</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__content">
+                    <div>
+                        <h3 class="work__year">2018.08 – present</h3>
+                        <span class="work__name">ArcelorMittal Poland</span>
+                    </div>
+
+                    <div class="time">
+                        <span class="rounder"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="work__position">Specialist in laboratory tests / electron microscope operator</h3>
+                        <span class="work__tasks"><b>Automation of repetitive tasks at work with the use of Java, VBA and JEOL software</b>, performing laboratory tests and preparing workplace instructions, working with scanning electron microscope and its service, participating in quality projects, creating and updating databases, contact with suppliers.</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="work__year">2017.06 – 2018.08</h3>
+                        <span class="work__name">Valeo Lighting Systems</span>
+                    </div>
+
+                    <div class="time">
+                        <span class="rounder"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="work__position">Quality trainee in the Project Department</h3>
+                        <span class="work__tasks"><b>Automation of repetitive tasks at work with the use of VBA</b>, preparation of quality documentation, contact with the client, data analysis, performing FMEA analysis, product
+                            validation.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2012 - 2016</h3>
+                        <span class="education__university">AGH University of Science and Technology</span>
+                    </div>
+
+                    <div class="time">
+                        <span class="rounder"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Faculty of Metals Engineering and Industrial Computer Science</h3>
+                        <span class="education__specialty">Material Engineering (B.E.)</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2016 - 2017</h3>
+                        <span class="education__university">AGH University of Science and Technology</span>
+                    </div>
+
+                    <div class="time">
+                        <span class="rounder"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Faculty of Metals Engineering and Industrial Computer Science</h3>
+                        <span class="education__specialty">Material Engineering (M.Eng.)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Dominik Knap</h1>
+            <p class="footer__description">Please, consult me here:</p>
+
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/dominik-knap-8966b6139/" class="footer__link" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/DominiKnap" class="footer__link"><i class='bx bxl-facebook' target="_blank"></i></a>
+                <a href="https://twitter.com/dominik_knap" class="footer__link"><i class='bx bxl-twitter' target="_blank"></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- MAIN JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
