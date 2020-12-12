@@ -274,10 +274,6 @@ img {
     background-color: var(--first-color-dark);
 }
 
-.home__button {
-    width: 100%;
-}
-
 .first__resume {
     margin-bottom: 1rem;
 }
