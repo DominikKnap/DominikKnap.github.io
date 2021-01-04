@@ -542,7 +542,7 @@ img {
 
 .footer__copy {
     font-size: var(--small-font-size);
-    color: var(--text-color);
+    color: var(--first-color-lighten);
 }
 
 
